@@ -35,15 +35,13 @@ align-items: center;
 #yellow {
   width: 500px;
   height: 300px;
-  /* border: 1px solid; */
-  /* z-index: -1; */
-  /* position: relative; */
+
 }
 #heroImg {
   width: 1200px;
   height: 400px;
   margin: 0 auto;
-  
+
   /* position: relative;
     bottom: 255px; */
   margin: 0 auto;
@@ -64,7 +62,6 @@ align-items: center;
   /* background-color: #cc9900; */
   /* background-color: #964b00; */
   /* background-color: #786639; */
-  /* color: white; */
   font-weight: 600;
   color: #fff;
   cursor: pointer;

@@ -8,7 +8,7 @@ const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { staggerChildren: 0.3 }, 
+    transition: { staggerChildren: 0.3 },
   },
 };
 
@@ -17,15 +17,14 @@ const childVariants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
 };
 
-
 const Section2 = () => {
   return (
     <div className="section2">
       <motion.div
-        whileInView={{ opacity: 1, x: 0 }} 
-        initial={{ opacity: 0, x: -100 }} 
-        transition={{ duration: 1.5, ease: "easeOut" }} 
-        viewport={{ once: false, amount: 0.2 }} 
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+        viewport={{ once: false, amount: 0.2 }}
         className="box"
       >
         <div className="left2">
@@ -40,16 +39,13 @@ const Section2 = () => {
           initial="hidden"
           whileInView="visible"
           variants={containerVariants}
-          viewport={{ once: false, amount: 0.2 }} 
+          viewport={{ once: false, amount: 0.2 }}
         >
           {/* <Subprops
             head="Unlimited Streaming"
             content="Access millions of songs with no interruptions"
           />
-          <Subprops
-            head="Custom Playlists"
-            content="Create, share, and enjoy personalized playlists"
-          />
+         
           <Subprops
             head=" Offline Mode"
             content="Download and listen anytime, anywhere"
