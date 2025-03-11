@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Testimonial.css";
-import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+import { FaStarHalfAlt } from "react-icons/fa";
+// import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 
 const testimonials = [
