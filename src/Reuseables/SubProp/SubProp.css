@@ -1,0 +1,14 @@
+.sub-item {
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    h3{
+        font-size: 20px;
+        margin: 5px;
+        color: #ffd900;
+        font-weight: 900;
+    }
+  }

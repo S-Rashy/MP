@@ -1,0 +1,39 @@
+.section2{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.left2{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    img{
+        height: 500px;
+        width: 300px;
+    }
+}
+.right2{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    img{
+        width: 500px;
+        height: 450px;
+    }
+}
+.sub{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+    flex-wrap: wrap;  
+}
+#ellipse{
+    position: absolute;
+}

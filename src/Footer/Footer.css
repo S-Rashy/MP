@@ -1,0 +1,96 @@
+.footer {
+  background-color: #111;
+  color: #ddd;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  font-family: Road Rage, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  color: #f0d800;
+  span {
+    font-weight: 700;
+  }
+}
+
+.footer-text {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.footer-icons {
+  margin-top: 10px;
+}
+
+.icon {
+  font-size: 35px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #f0d800;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #ddd;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #f0d800;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.app-button {
+  display: flex;
+  align-items: center;
+  background: #222;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  color: white;
+}
+
+.app-button:hover {
+  background: #f0d800;
+  color: #111;
+}
+
+.app-icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.footer-copyright {
+  margin-top: 20px;
+  font-size: 12px;
+}

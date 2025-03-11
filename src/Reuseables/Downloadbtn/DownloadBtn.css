@@ -1,0 +1,33 @@
+.download {
+  /* border: 1px solid; */
+  width: 130px;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  box-shadow: inset 13px 13px 24px #191717, inset -13px -13px 24px #413d3d;
+  img {
+    width: 30px;
+  }
+  p {
+    margin: 0;
+    font-size: 9px;
+  }
+  h5 {
+    margin: 0;
+  }
+}
+.downloadText {
+  /* border: 1px solid; */
+  height: 35px;
+}
+.download:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 2px -3px #2e2d2d, 0 4px 5px 1px #121111, 0 2px 7px 1px #ccc;
+
+}

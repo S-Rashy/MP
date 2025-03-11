@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 10px 30px;
+  font-family: Manrope, arial;
+}
+.slider-container {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #111;
+  color: #f0d800;
+  text-align: center;
+}
+
+.coming-soon h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.coming-soon p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.back-home {
+  text-decoration: none;
+  color: #111;
+  background-color: #f0d800;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(240, 216, 0, 0.3);
+}
+
+.back-home:hover {
+  background-color: #fff;
+  color: #111;
+  box-shadow: 0 6px 15px rgba(240, 216, 0, 0.5);
+}

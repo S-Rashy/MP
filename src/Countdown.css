@@ -1,0 +1,72 @@
+/* Background and layout */
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    width: 400px;
+    /* height: 400px; */
+    border-radius: 45px;
+    padding: 10px;
+    margin: 10px auto;
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f0d800;
+    text-shadow: 0px 0px 10px rgba(240, 216, 0, 0.7);
+    margin-bottom: 20px;
+  }
+  
+  /* Circular grid */
+  .circle-grid {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Circular countdown */
+  .circle-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgba(240, 216, 0, 0.5);
+    box-shadow: 0px 0px 15px rgba(240, 216, 0, 0.7);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    color: white;
+  }
+  
+  /* Hover effect */
+  .circle-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 25px rgba(240, 216, 0, 1);
+  }
+  
+  /* Countdown value */
+  .circle-value {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Countdown label */
+  .circle-label {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #f0d800;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+  
