@@ -9,6 +9,27 @@ const Songs = [
         author: `Wizkid`,
         file: `Wizkid_-_Kese_Dance_.mp3`,
         length: 3
+    },
+    {   
+        id: 1,
+        name: `Way Too Big`,
+        author: `Burna Boy`,
+        file: `Burna-Boy-Way-Too-Big.mp3`,
+        length: 3
+    },
+    {   
+        id: 2,
+        name: `Fuji Vibes `,
+        author: `Asake`,
+        file: `Asake-Fuji-Vibe.mp3`,
+        length: 5
+    },
+    {   
+        id: 0,
+        name: `Be There Still`,
+        author: `Davido`,
+        file: `Davido-Be-There-Still.mp3`,
+        length: 4
     }
 ];
 
