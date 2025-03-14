@@ -1,62 +1,68 @@
-.header{
-    max-width: 1440px;
-    border-bottom: 1px solid;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    padding: 0px 0px 20px;
-    margin: auto;
+.header {
+  max-width: 1440px;
+  border-bottom: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 0px 20px;
+  margin: auto;
 }
-.navLeft{
-    width: 120px;
-    height: 40px ;
-    /* border: 1px solid; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-        img{
-        width: 32px;
+.navLeft {
+  width: 120px;
+  height: 40px;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 32px;
+  }
+  p {
+    font-family: Road Rage, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+      "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 26px;
+    span {
+      font-weight: 700;
     }
-    p{
-        font-family: Road Rage,  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 26px;
-        span{
-            font-weight: 700;
-        }
-    }
+  }
 }
-.navCenter{
-    width: 402px;
-    height: 17px;
-    /* border: 1px solid; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    a{
-        color: black;
-        text-decoration: none;
-        transition: color 0.3s;
-    }
-    a:hover{
-        color: #f1d903;
-        font-weight: 600;
-    }
+.navCenter {
+  width: 402px;
+  height: 17px;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  a:hover {
+    color: #f1d903;
+    font-weight: 600;
+  }
 }
-.navRight{
-    height: 50px;
-    width: 197px;
-    /* border: 1px solid; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    button{
-        width: 80px;
-        height: 40px;
-        border-radius: 35px;
-        border: none;
-    }
-    #signIn{
-        background-color: #f0d800;
-    }
+.navRight {
+  height: 50px;
+  width: 197px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  button {
+    width: 80px;
+    height: 40px;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  #signIn {
+    background-color: #f0d800;
+  }
+  button:hover {
+    font-weight: 700;
+    transform: scale(1.2);
+  }
 }
