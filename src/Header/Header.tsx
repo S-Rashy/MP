@@ -1,6 +1,9 @@
 import "./Header.css"
+import { useNavigate } from "react-router-dom";
 import Logo from "../assets/logo.svg"
 const Header = () => {
+    const navigate = useNavigate();
+
     return ( <div className="header">
         <div className="navLeft">
             <img src={Logo} alt="" />
@@ -8,7 +11,7 @@ const Header = () => {
         </div>
     
         <div className="navCenter">
-            <a href="">Home</a>
+            <a href=""  onClick={() => navigate("/")}>Home</a>
             <a href="">Category</a>
             <a href="">Trending</a>
             <a href="">Events</a>

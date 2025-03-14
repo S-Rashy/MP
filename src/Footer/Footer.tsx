@@ -1,10 +1,13 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { AiFillApple } from 'react-icons/ai';
 import { SiGoogleplay } from 'react-icons/si';
 import './Footer.css';
 
 const Footer: React.FC = () => {
+  const navigate = useNavigate();
+  
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -36,7 +39,7 @@ const Footer: React.FC = () => {
         <div className="footer-section">
           <h3 className="footer-subtitle">Get the App</h3>
           <div className="footer-buttons">
-            <button className="app-button">
+            <button className="app-button" onClick={() => navigate("/player")}>
               <AiFillApple className="app-icon" />
               <span>App Store</span>
             </button>
