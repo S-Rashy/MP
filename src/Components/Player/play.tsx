@@ -25,10 +25,17 @@ const Songs = [
         length: 5
     },
     {   
-        id: 0,
+        id: 3,
         name: `Be There Still`,
         author: `Davido`,
         file: `Davido-Be-There-Still.mp3`,
+        length: 4
+    },
+    {   
+        id: 4,
+        name: `Toma Toma`,
+        author: `Ruger ft Tiwa Savage`,
+        file: `Ruger-ft-Tiwa-Savage-Toma-Toma.mp3`,
         length: 4
     }
 ];
